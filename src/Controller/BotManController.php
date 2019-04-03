@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-use App\Service\ColorProvider;
+use App\Service\provider\ColorProvider;
 use App\Service\MessageHandler\ColorMessageHandler;
 use BotMan\BotMan\BotMan;
 use BotMan\BotMan\BotManFactory;
